@@ -1,0 +1,92 @@
+body {
+  font-size: 1.125rem;
+  background-color: #e5e5e5;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+}
+
+.h1,
+h1 {
+  color: #463f3a;
+}
+
+.fs-7 {
+  font-size: 0.75rem;
+}
+
+.rounded-4 {
+  border-radius: 0.9375rem;
+}
+
+.py-8 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.mt-8 {
+  margin-top: 3rem;
+}
+
+.border-hibiscus {
+  border-color: #c32c72 !important;
+}
+
+.bg-pampas {
+  background-color: #f4f3ee;
+}
+
+.bg-hibiscus {
+  background-color: #c32c72;
+}
+
+.text-gray {
+  color: #8d8d8d;
+}
+
+.nav-link {
+  font-family: 'Archivo Narrow', sans-serif;
+}
+
+.navbar-brand {
+  font-size: 2.25rem;
+}
+
+.navbar-light .navbar-brand {
+  color: #262626;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: #c32c72;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #333333;
+}
+
+@media (min-width: 768px) {
+  .navbar-light .navbar-nav .nav-link {
+    color: #8d8d8d;
+  }
+
+  .fixed-md-bottom {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030;
+  }
+}
